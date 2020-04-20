@@ -1,0 +1,704 @@
+{
+    "data": [
+        {
+            "title": "Pride and Prejudice",
+            "genre": "Romantic",
+            "author": "Jane Austen",
+            "description": "Philosophy, history, wit, and the most passionate love story.",
+            "hidden": "false"
+        },
+        {
+            "title": "To Kill a Mockingbird",
+            "genre": "Southern Gothic",
+            "author": "Harper Lee",
+            "description": "A jarring & poignantly beautiful story about how humans treat each other.",
+            "hidden": "false"
+        },
+        {
+            "title": "The Great Gatsby",
+            "genre": "Tragedy",
+            "author": "F. Scott Fitzgerald",
+            "description": "The greatest, most scathing dissection of the hollowness at the heart of the American dream. Hypnotic, tragic, both of its time and completely relevant.",
+            "hidden": "false"
+        },
+        {
+            "title": "One Hundred Years of Solitude",
+            "genre": "Fantasy",
+            "author": "Gabriel García Márquez",
+            "description": "Magic realism at its best. Both funny and moving, this book made me reflect for weeks on the inexorable march of time.",
+            "hidden": "false"
+        },
+        {
+            "title": "In Cold Blood",
+            "genre": "Crime",
+            "author": "Truman Capote",
+            "description": "In this groundbreaking novel, completed after six arduous years of research, Capote invented a new genre - the 'Nonfiction Novel' - applying prose techniques to fact. It spawned the school of New Journalism & invented the true crime genre as we know it.",
+            "hidden": "false"
+        },
+        {
+            "title": "Wide Sargasso Sea",
+            "genre": "Romance",
+            "author": "Jean Rhys",
+            "description": "Rhys took a character from a classic novel and breathed new life into the “madwoman in the attic” based on her own experiences/world view. She beautifully showed how the stories we read fold into our lives to make new stories.",
+            "hidden": "false"
+        },
+        {
+            "title": "Brave New World",
+            "genre": "Dystopian",
+            "author": "Aldous Huxley",
+            "description": "Given the exponential growth of AI, Machine Learning & Robotics, Huxley's vision acts as a warning. Will we rise and challenge those who seek to shape our future or sleepwalk toward conditioning by technology?",
+            "hidden": "false"
+        },
+        {
+            "title": "I Capture The Castle",
+            "genre": "Romance",
+            "author": "Dodie Smith",
+            "description": "A 'children's book' that speaks volumes (ha) about unrequited love and dysfunctional families. Timeless. And funny. (and we need some laughs on the 100 Classics list!)",
+            "hidden": "false"
+        },
+        {
+            "title": "Jane Eyre",
+            "genre": "Romance",
+            "author": "Charlotte Bronte",
+            "description": "Because Jane is a role model: she stands up for herself, others and what she believes in, but isn't too proud to give second chances to those whose time is running out.",
+            "hidden": "false"
+        },
+        {
+            "title": "Crime and Punishment",
+            "genre": "Crime",
+            "author": "Fyodor Dostoevsky",
+            "description": "No other novel has made me feel so much for the main characters, so deeply depicted by the author. I felt like an orphan when I finished it and it's the only novel I've re-read several times.",
+            "hidden": "false"
+        },
+        {
+            "title": "The Secret History",
+            "genre": "Mystery",
+            "author": "Donna Tartt",
+            "description": "A modern classic - so well-articulated and written (something that’s hard to come by these days). Also, EXCELLENT PLOT!",
+            "hidden": "false"
+        },
+        {
+            "title": "The Call of the Wild",
+            "genre": "Adventure",
+            "author": "Jack London",
+            "description": "Because everyone who loves the earth knows it’s true.",
+            "hidden": "false"
+        },
+        {
+            "title": "The Chrysalids",
+            "genre": "Science Fiction",
+            "author": "John Wyndham",
+            "description": "A post-apocalyptic novel, about intolerance, loneliness, friendship, and what it means to be human. A fantastic sci-fi novel, as relevant today as it was in the 50s.",
+            "hidden": "false"
+        },
+        {
+            "title": "Persuasion",
+            "genre": "Romance",
+            "author": "Jane Austen",
+            "description": "This continues to be my favourite novel. It is a more mature love story, full of humourous, delightful observations of human behaviour. It offers us a glimpse of redemption. We change as we grow, and the mistakes made in our youth can be overcome.",
+            "hidden": "false"
+        },
+        {
+            "title": "Moby-Dick",
+            "genre": "Adventure",
+            "author": "Herman Melville",
+            "description": "The great American novel: great characters, wonderful language, thick with the Bible and Thomas Browne, and has the best opening sentence ever. What's not to like?",
+            "hidden": "false"
+        },
+        {
+            "title": "The Lion, the Witch and the Wardrobe",
+            "genre": "Children's",
+            "author": "C.S. Lewis",
+            "description": "A beautiful timeless tale of innocence, wonder and sacrifice for young and old alike. It was one of the first books that I read from cover to cover without putting down!",
+            "hidden": "false"
+        },
+        {
+            "title": "To the Lighthouse",
+            "genre": "Romance",
+            "author": "Virginia Woolf",
+            "description": "You feel like you’re stood on top of a cliff with the sea breeze blowing right through your bones.",
+            "hidden": "false"
+        },
+        {
+            "title": "The Death of the Heart",
+            "genre": "Romance",
+            "author": "Elizabeth Bowen",
+            "description": "This book captures the awkward tension and anxieties of the interwar period through a deeply reflective, but oddly naive, unloved girl. ",
+            "hidden": "false"
+        },
+        {
+            "title": "Tess of the d'Urbervilles by ",
+            "genre": "Tragedy",
+            "author": "Thomas Hardy",
+            "description": "This novel teaches us about the position of women in the past and their moments of frailty versus moments of strength. Basically, an important insight for everyone to have!",
+            "hidden": "false"
+        },
+        {
+            "title": "Frankenstein",
+            "genre": "Gothic",
+            "author": "Mary Shelley",
+            "description": "Chosen for all the questions it raises about consequences and taking responsibility for your actions; nature versus nurture; the value of friendship. I could go on.",
+            "hidden": "false"
+        },
+        {
+            "title": "The Master and Margarita",
+            "genre": "Satire",
+            "author": "Mikhail Bulgakov",
+            "description": "This novel has got the Devil mooching around Moscow with a massive black cat. Oh, and there’s a naked flying lady.",
+            "hidden": "false"
+        },
+        {
+            "title": "The Go-Between",
+            "genre": "Romance",
+            "author": "L. P. Hartley",
+            "description": "As a 17-year-old, I was completely absorbed by this story, wishing Leo was my brother so that I could protect him from the disappointment that awaited him.",
+            "hidden": "false"
+        },
+        {
+            "title": "One Flew Over the Cuckoo's Nest",
+            "genre": "Psychological",
+            "author": "Ken Kesey",
+            "description": "A story that shows there is more to life than following rules. Having joy and being spontaneous are as important as anything else in life.",
+            "hidden": "false"
+        },
+        {
+            "title": "Nineteen Eighty-Four",
+            "genre": "Dystopian",
+            "author": "George Orwell",
+            "description": "I first read this book years ago, and was glad I would never have to be a part of that kind of society. Yet, here I am in 2018, and so much of that novel has come true.",
+            "hidden": "false"
+        },
+        {
+            "title": "Buddenbrooks",
+            "genre": "Fiction",
+            "author": "Thomas Mann",
+            "description": "It’s a great novel about the rise and fall of a family, the relationship between fathers and sons, and the conflict between art and business. Well, and I have to say I do love family sagas.",
+            "hidden": "false"
+        },
+        {
+            "title": "The Grapes of Wrath",
+            "genre": "Historical",
+            "author": "John Steinbeck",
+            "description": "Migration in search of work and a better future. A modern-day story. Still makes my skin tingle.",
+            "hidden": "false"
+        },
+        {
+            "title": "Beloved",
+            "genre": "Historical",
+            "author": "Toni Morrison",
+            "description": "This book is amazing. Beautifully written, haunting and the level of detail of the lengths people went to protect their families from slavery is fantastic.",
+            "hidden": "false"
+        },
+        {
+            "title": "The Code of the Woosters",
+            "genre": "Humor",
+            "author": "P. G. Wodehouse",
+            "description": "The best of the Bertie and Jeeves novels by Wodehouse, the 20th century master of the light comic novel. Intricate plotting and brilliant command of English prose.",
+            "hidden": "false"
+        },
+        {
+            "title": "Dracula",
+            "genre": "Gothic",
+            "author": "Bram Stoker",
+            "description": "A Gothic tale of fear and love. Would one desire immortality at the cost of one’s morality and soul? Loneliness beckons down such a dangerous and fearful path.",
+            "hidden": "false"
+        },
+        {
+            "title": "The Lord of the Rings",
+            "genre": "Fantasy",
+            "author": "J. R. R. Tolkien",
+            "description": "It's got the great sweeping story, romance, heroism, self-sacrifice, social commentary... it's not just magic and elves!",
+            "hidden": "false"
+        },
+        {
+            "title": "The Adventures of Huckleberry Finn",
+            "genre": "Humor",
+            "author": "Mark Twain",
+            "description": "This book demonstrates how a young boy learns to think for himself, and shows us how we can, too. It’s funny, sweet and sad – sometimes all in the same paragraph.",
+            "hidden": "false"
+        },
+        {
+            "title": "Great Expectations",
+            "genre": "Fiction",
+            "author": "Charles Dickens",
+            "description": "This book is not only important as a literary masterpiece and an evocative story - it also has universal appeal as, unfortunately, many children in today's world undergo the same suffering as Pip.",
+            "hidden": "false"
+        },
+        {
+            "title": "Catch-22",
+            "genre": "Satire",
+            "author": "Joseph Heller",
+            "description": "In my opinion, there is no book that better captures human nature and the futility of conflict. You’ll come out the other side angry, uplifted, and crazy.",
+            "hidden": "false"
+        },
+        {
+            "title": "The Age of Innocence",
+            "genre": "Fiction",
+            "author": "Edith Wharton",
+            "description": "When SHE comes she is different, and one doesn't know why...",
+            "hidden": "false"
+        },
+        {
+            "title": "Things Fall Apart",
+            "genre": "Historical",
+            "author": "Chinua Achebe",
+            "description": "A compelling and important exploration of cultural identity in relation to both the rising tide of British colonialism and the pressures of gender expectations. A poignant tragedy written with pathos. Necessary reading!",
+            "hidden": "false"
+        },
+        {
+            "title": "Middlemarch",
+            "genre": "Historical",
+            "author": "George Eliot",
+            "description": "This book is superb in form and content. There is no better dissection of and insight into human society. She was the Shakespeare of her day and Middlemarch is her finest novel.",
+            "hidden": "false"
+        },
+        {
+            "title": "Midnight's Children",
+            "genre": "Historical",
+            "author": "Salman Rushdie",
+            "description": "This is the most magical and well-written book I've read. The history of the partition of the Indian subcontinent told as a delightful allegory.",
+            "hidden": "false"
+        },
+        {
+            "title": "The Iliad",
+            "genre": "Adventure",
+            "author": "Homer",
+            "description": "This is the ultimate war poem, filled with existential drama, heroic striving, death, and the meaning of life.",
+            "hidden": "false"
+        },
+        {
+            "title": "Vanity Fair",
+            "genre": "Historical",
+            "author": "William Makepeace Thackeray",
+            "description": "Because Becky Sharp is the greatest female lead character in English literature. Bar none.",
+            "hidden": "false"
+        },
+        {
+            "title": "Brideshead Revisited",
+            "genre": "Fiction",
+            "author": "Evelyn Waugh",
+            "description": "So evocative of a certain time and place, as well as being a compelling story.",
+            "hidden": "false"
+        },
+        {
+            "title": "The Catcher in the Rye",
+            "genre": "Bildungsroman",
+            "author": "J.D. Salinger",
+            "description": "This novel’s main character, Holden, is coping with tragic loss, as all of us do in our lives. As he wanders aimlessly around the city, he struggles to plan his next life move, but finds happiness in small joys, such as his strong bond with his sister.",
+            "hidden": "false"
+        },
+        {
+            "title": "Alice’s Adventures in Wonderland",
+            "genre": "Children's",
+            "author": "Lewis Carroll",
+            "description": "We should all get lost down a rabbit hole every once in a while and come out believing in six impossible things before breakfast #whyisaravenlikeawritingdesk",
+            "hidden": "false"
+        },
+        {
+            "title": "The Mill on the Floss",
+            "genre": "Romance",
+            "author": "George Eliot",
+            "description": "One classic everyone must read: The Mill on the Floss by George Eliot. A beautifully told story of an intelligent girl who yearns for more than society allows.",
+            "hidden": "false"
+        },
+        {
+            "title": "Barchester Towers",
+            "genre": "Fiction",
+            "author": "Anthony Trollope",
+            "description": "This book has tremendous characters and a plot which sucks you into such a different world, about which you find yourself caring desperately.",
+            "hidden": "false"
+        },
+        {
+            "title": "Another Country",
+            "genre": "Psychological",
+            "author": "James Baldwin",
+            "description": "This is a book that shows how everyone can live and love together, passionately, dangerously, with exquisite music.  I’ll never forget the thrill of first reading it",
+            "hidden": "false"
+        },
+        {
+            "title": "Les Miserables",
+            "genre": "Historical",
+            "author": "Victor Hugo",
+            "description": "A beautiful story of the power of redemption and a good heart along with a backdrop of the socio-economic iniquities of 19th century France. Beautifully written, it tugs the heartstrings.",
+            "hidden": "false"
+        },
+        {
+            "title": "Charlie and the Chocolate Factory",
+            "genre": "Children's",
+            "author": "Roald Dahl",
+            "description": "This list wouldn't be complete without some of Roald Dahl's magic, and my golden ticket is for this novel.",
+            "hidden": "false"
+        },
+        {
+            "title": "The Outsiders",
+            "genre": "Young Adult",
+            "author": "S. E. Hinton",
+            "description": "The original YA novel, which sparked many crushes and made me fall in love with reading.",
+            "hidden": "false"
+        },
+        {
+            "title": "The Count of Monte Cristo",
+            "genre": "Adventure",
+            "author": "Alexandre Dumas",
+            "description": "The best classic tale! A story of innocence, romance, betrayal, suffering, revenge and more importantly, Man’s triumph over all life throws at him.",
+            "hidden": "false"
+        },
+        {
+            "title": "Ulysses",
+            "genre": "Modernist",
+            "author": "James Joyce",
+            "description": "Reading it as a person, an emotional journey. Reading it as a writer, technically mesmerizing and inspiring",
+            "hidden": "false"
+        },
+        {
+            "title": "East of Eden",
+            "genre": "Fiction",
+            "author": "John Steinbeck",
+            "description": "Brilliant writing, epic family saga, drills deep into human nature and how we think, feel and act toward one another. My all-time favourite novel.",
+            "hidden": "false"
+        },
+        {
+            "title": "The Brothers Karamazov",
+            "genre": "Pyschological",
+            "author": "Fyodor Dostoyevsky",
+            "description": "A depiction of the darkest recesses of human nature. But also of the brightest ones…",
+            "hidden": "false"
+        },
+        {
+            "title": "Lolita",
+            "genre": "Erotic",
+            "author": "Vladimir Nabokov",
+            "description": "Beautifully written. The book takes you into the mind of this awful character and lets you roll around in the gorgeous word-play as the story unfurls.",
+            "hidden": "false"
+        },
+        {
+            "title": "The Secret Garden",
+            "genre": "Children's",
+            "author": "Frances Hodgson Burnett",
+            "description": "I will never forget reading this book as a child. I felt I was in the middle of the story.",
+            "hidden": "false"
+        },
+        {
+            "title": "Scoop",
+            "genre": "Humor",
+            "author": "Evelyn Waugh",
+            "description": "A funny story wrapped around absurdity, journalism and war.",
+            "hidden": "false"
+        },
+        {
+            "title": "A Tale of Two Cities",
+            "genre": "Historical",
+            "author": "Charles Dickens",
+            "description": "Sitting alone at 16 years old after the family had gone to bed,  tears streamed down my cheeks as I finished this novel.",
+            "hidden": "false"
+        },
+        {
+            "title": "Diary of a Nobody",
+            "genre": "Humor",
+            "author": "George and Weedon Grossmith",
+            "description": "I have read this book so many times and laugh out loud every time. I have a Penguin Classic copy of it that's falling apart but I wouldn't part with it for the world.",
+            "hidden": "false"
+        },
+        {
+            "title": "Anna Karenina",
+            "genre": "Fiction",
+            "author": "Leo Tolstoy",
+            "description": "Simply the best in-depth characterisation of all time. Tolstoy's psychological insights have never been beaten.",
+            "hidden": "false"
+        },
+        {
+            "title": "The Betrothed",
+            "genre": "Romance",
+            "author": "Alessandro Manzoni",
+            "description": "This book is on the verge of being forgotten by casual readers, but it’s entertaining, socially and scientifically progressive for its time, has incredibly moving, beautifully-written passages on bread riots and the plague, and it has the best surprise trope-subversion at the end.",
+            "hidden": "false"
+        },
+        {
+            "title": "Orlando",
+            "genre": "Modernist",
+            "author": "Virginia Woolf",
+            "description": "What is it to be a woman? Woolf's modernist novel is so fresh even 90 or so years later. Gender fluidity before the term was even coined. And a history of literature as a backdrop.",
+            "hidden": "false"
+        },
+        {
+            "title": "Atlas Shrugged",
+            "genre": "Dystopian",
+            "author": "Ayn Rand",
+            "description": "This book engages the reader through its characters and themes, allowing one to be entranced through this cautionary tale that can be applied to the modern world.",
+            "hidden": "false"
+        },
+        {
+            "title": "The Time Machine",
+            "genre": "Science Fiction",
+            "author": "H. G. Wells",
+            "description": "A story of knowledge, education, and imagining a future.",
+            "hidden": "false"
+        },
+        {
+            "title": "The Art of War",
+            "genre": "Treatise",
+            "author": "Sun-Tzu",
+            "description": "This should be called the little book of common sense. It makes everything easier to understand.",
+            "hidden": "false"
+        },
+        {
+            "title": "The Forsyte Saga",
+            "genre": "Fiction",
+            "author": "John Galsworthy",
+            "description": "This book gives you a wonderful impression of life in the 19th and early 20th century. It’s both enthralling and touching.",
+            "hidden": "false"
+        },
+        {
+            "title": "Travels with Charley",
+            "genre": "Adventure",
+            "author": "John Steinbeck",
+            "description": "One of the true first ‘road’ books – a search for the spirit of the ordinary American people.",
+            "hidden": "false"
+        },
+        {
+            "title": "Tropic of Cancer",
+            "genre": "Erotic",
+            "author": "Henry Miller",
+            "description": "Loud, funny, sexual Paris in the 1930s. I read it when I was 20, and it changed the way I look at the world.",
+            "hidden": "false"
+        },
+        {
+            "title": "Women in Love",
+            "genre": "Romance",
+            "author": "D. H. Lawrence",
+            "description": "This is Lawrence at his best… although I do think Lady Chatterley’s Lover is under-rated…",
+            "hidden": "false"
+        },
+        {
+            "title": "Staying On",
+            "genre": "Historical",
+            "author": "Paul Scott",
+            "description": "A funny, tragic, beautifully written study of an English colonial married couple left behind as an independent India moves ahead.",
+            "hidden": "false"
+        },
+        {
+            "title": "The Wind in the Willows",
+            "genre": "Children's",
+            "author": "Kenneth Grahame",
+            "description": "You can enjoy this book at any age – and it’s beautifully written.",
+            "hidden": "false"
+        },
+        {
+            "title": "My Ántonia",
+            "genre": "Historical",
+            "author": "Willa Cather",
+            "description": "Quite simply, a beautifully written book.",
+            "hidden": "false"
+        },
+        {
+            "title": "Wuthering Heights",
+            "genre": "Gothic",
+            "author": "Emily Brontë",
+            "description": "Passion, heartbreak – this is the greatest novel ever written.",
+            "hidden": "false"
+        },
+        {
+            "title": "Perfume",
+            "genre": "Mystery",
+            "author": "Patrick Süskind",
+            "description": "A story of suspense and love, with beautiful narration.",
+            "hidden": "false"
+        },
+        {
+            "title": "War and Peace",
+            "genre": "Historical",
+            "author": "Leo Tolstoy",
+            "description": "This novel is just gripping and beautifully written. Kept me enthralled for weeks...",
+            "hidden": "false"
+        },
+        {
+            "title": "Of Human Bondage",
+            "genre": "Bildungsroman",
+            "author": "Somerset Maugham",
+            "description": "A compelling story of unreciprocated love.",
+            "hidden": "false"
+        },
+        {
+            "title": "Bleak House",
+            "genre": "Mystery",
+            "author": "Charles Dickens",
+            "description": "An amazing story, with so many twists and turns",
+            "hidden": "false"
+        },
+        {
+            "title": "Lost Illusions",
+            "genre": "Fiction",
+            "author": "Honoré de Balzac",
+            "description": "A magnificent story about human nature, ambition and society (in any century).",
+            "hidden": "false"
+        },
+        {
+            "title": "Breakfast of Champions",
+            "genre": "Humor",
+            "author": "Kurt Vonnegut",
+            "description": "Reading this blend of surrealism, sci-fi and other genres made me realise that sometimes, fiction can be more powerful than real-life stories!",
+            "hidden": "false"
+        },
+        {
+            "title": "A Christmas Carol",
+            "genre": "Fiction",
+            "author": "Charles Dickens",
+            "description": "A masterpiece. The ultimate story of hope and redemption.",
+            "hidden": "false"
+        },
+        {
+            "title": "Silas Marner",
+            "genre": "Fiction",
+            "author": "George Eliot",
+            "description": "Redemption and love. Beautifully written.",
+            "hidden": "false"
+        },
+        {
+            "title": "Mrs Dalloway",
+            "genre": "Psychological",
+            "author": "Virginia Woolf",
+            "description": "A reminder that no life is too small.",
+            "hidden": "false"
+        },
+        {
+            "title": "Little Women",
+            "genre": "Bildungsroman",
+            "author": "Louisa May Alcott",
+            "description": "A story of growing up and changing and the world set around a group of young girls. This book is as timeless as it is beautiful.",
+            "hidden": "false"
+        },
+        {
+            "title": "The Sea, The Sea",
+            "genre": "Psychological",
+            "author": "Iris Murdoch",
+            "description": "This book left me speechless, while reading and after reading and I still can't find the words to describe why it is one of the most impressive pieces of writing I have ever read.",
+            "hidden": "false"
+        },
+        {
+            "title": "The Godfather",
+            "genre": "Crime",
+            "author": "Mario Puzo",
+            "description": "This novel teaches the reader about the strengths and failures of human nature.",
+            "hidden": "false"
+        },
+        {
+            "title": "The Castle",
+            "genre": "Dystopian",
+            "author": "Franz Kafka",
+            "description": "This book leads the reader into a maze of conundrums, confusion, iciness and moral fog. Never to be forgotten once read.",
+            "hidden": "false"
+        },
+        {
+            "title": "I Claudius",
+            "genre": "Historical",
+            "author": "Robert Graves",
+            "description": "A beautifully written novel about absolute power. Very relevant.",
+            "hidden": "false"
+        },
+        {
+            "title": "Peter Pan",
+            "genre": "Children's",
+            "author": "J.M. Barrie",
+            "description": "A book that reminds everyone to never grow up inside!",
+            "hidden": "false"
+        },
+        {
+            "title": "A Confederacy of Dunces",
+            "genre": "Humor",
+            "author": "John Kennedy Toole",
+            "description": "I chose this book just because the characters are fantastic, and it makes me laugh.",
+            "hidden": "false"
+        },
+        {
+            "title": "The Razor's Edge",
+            "genre": "Fiction",
+            "author": "W. Somerset Maugham",
+            "description": "A profound story of one man’s journey to find himself.",
+            "hidden": "false"
+        },
+        {
+            "title": "Lark Rise to Candleford",
+            "genre": "Fiction",
+            "author": "Flora Thompson",
+            "description": "Perhaps a little bit out of left field, but I love this book. It's simple, it's beautifully written and it's all about capturing a vanishing way of life as countryside farming turns to Victorian towns... really eloquent, really moving!",
+            "hidden": "false"
+        },
+        {
+            "title": "Return of the Native",
+            "genre": "Fiction",
+            "author": "Thomas Hardy",
+            "description": "I chose this book because Eustacia Vye is misunderstood - as are many women.",
+            "hidden": "false"
+        },
+        {
+            "title": "A Portrait of the Artist as a Young Man",
+            "genre": "Bildungsroman",
+            "author": "James Joyce",
+            "description": "Joyce is not only the greatest stylist in English, but the novel contains one of the most complex discussions of aesthetics in the 20th century.",
+            "hidden": "false"
+        },
+        {
+            "title": "Heart of Darkness",
+            "genre": "Psychological",
+            "author": "Joseph Conrad",
+            "description": "What an amazing piece of writing from someone who had to learn the language first...",
+            "hidden": "false"
+        },
+        {
+            "title": "North and South",
+            "genre": "Fiction",
+            "author": "Elizabeth Gaskell",
+            "description": "This novel combines a beautiful love story and discussion of important economical and social issues of its time.",
+            "hidden": "false"
+        },
+        {
+            "title": "The Handmaid's Tale",
+            "genre": "Dystopian",
+            "author": "Margaret Atwood",
+            "description": "I chose this book because it gives a feminist perspective on the world. Also, Atwood uses events from history to create the story, which I find important. History is a circle.",
+            "hidden": "false"
+        },
+        {
+            "title": "Suite Francaise",
+            "genre": "Historical",
+            "author": "Irene Nemirovsky",
+            "description": "This is my favourite book. It is an extremely moving account of the kinds of things that actually happened in Nazi-occupied France during the Second World War. It presents the dilemmas, fears and choices that were felt and had to be made by ordinary people.",
+            "hidden": "false"
+        },
+        {
+            "title": "One Day in the Life of Ivan Denisovich",
+            "genre": "Fiction",
+            "author": "Alexander Solzhenitsyn",
+            "description": "Solzhenitsyn’s writing from personal experience of life/existence in a forced labour camp under Stalin's communist regime is a stark, brutal, masterpiece.",
+            "hidden": "false"
+        },
+        {
+            "title": "What A Carve Up!",
+            "genre": "Fiction",
+            "author": "Jonathan Coe",
+            "description": "This novel has so much to say about human nature, political power and the elite, and always will do. Caustic, heartfelt, funny, devastating; a beautiful book.",
+            "hidden": "false"
+        },
+        {
+            "title": "Zen and the Art of Motorcycle Maintenance",
+            "genre": "Adventure",
+            "author": "Robert Pirsig",
+            "description": "An amazing philosophical adventure that influenced a generation.",
+            "hidden": "false"
+        },
+        {
+            "title": "White Nights",
+            "genre": "Fiction",
+            "author": "Fyodor Dostoyevsky",
+            "description": "This is an incredibly beautiful and uplifting book. Everyone should read it!",
+            "hidden": "false"
+        },
+        {
+            "title": "Hard Times",
+            "genre": "Fiction",
+            "author": "Charles Dickens",
+            "description": "Pathos, humour, social comment, politic and incredibly well-drawn, believable characters.",
+            "hidden": "false"
+        }
+    ]
+}
