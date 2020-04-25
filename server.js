@@ -1,6 +1,7 @@
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
+const port = process.env.PORT;
 
 const server = http.createServer((request, response) => {
     const { method, url } = request;
@@ -35,6 +36,6 @@ const server = http.createServer((request, response) => {
     else {
         response.end('404 Error: page not found!')
     }
-}).listen(3000);
+}).listen(port);
 
 module.exports = server;
