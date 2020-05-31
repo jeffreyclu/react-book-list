@@ -40,6 +40,20 @@ var App = function (_React$Component) {
 
     var _this = _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).call(this, props));
 
+    _this.toggleGenreFilter = function () {
+      _this.setState(function (prevState) {
+        var filterGenreToggle = !prevState.filterGenreToggle;
+        return { filterGenreToggle: filterGenreToggle };
+      });
+    };
+
+    _this.toggleAuthorFilter = function () {
+      _this.setState(function (prevState) {
+        var filterAuthorToggle = !prevState.filterAuthorToggle;
+        return { filterAuthorToggle: filterAuthorToggle };
+      });
+    };
+
     _this.filterGenre = function (genre) {
       _this.setState(function () {
         var storedCardList = JSON.parse(localStorage.getItem("storedState"));
@@ -176,7 +190,9 @@ var App = function (_React$Component) {
       genres: [],
       authors: [],
       newCard: {},
-      tempCard: {}
+      tempCard: {},
+      filterGenreToggle: false,
+      filterAuthorToggle: false
     };
     _this.filterGenre = _this.filterGenre.bind(_this);
     _this.filterAuthor = _this.filterAuthor.bind(_this);
@@ -187,6 +203,8 @@ var App = function (_React$Component) {
     _this.markRead = _this.markRead.bind(_this);
     _this.toggleEdit = _this.toggleEdit.bind(_this);
     _this.commitEdit = _this.commitEdit.bind(_this);
+    _this.toggleGenreFilter = _this.toggleGenreFilter.bind(_this);
+    _this.toggleAuthorFilter = _this.toggleAuthorFilter.bind(_this);
     return _this;
   }
 
@@ -232,7 +250,11 @@ var App = function (_React$Component) {
         tempCard: this.state.tempCard,
         toggleEdit: this.toggleEdit,
         editCard: this.editCard,
-        commitEdit: this.commitEdit
+        commitEdit: this.commitEdit,
+        toggleGenreFilter: this.toggleGenreFilter,
+        filterGenreToggle: this.state.filterGenreToggle,
+        toggleAuthorFilter: this.toggleAuthorFilter,
+        filterAuthorToggle: this.state.filterAuthorToggle
       });
     }
   }]);
@@ -255,7 +277,11 @@ var CardsContainer = function CardsContainer(props) {
       tempCard = props.tempCard,
       toggleEdit = props.toggleEdit,
       editCard = props.editCard,
-      commitEdit = props.commitEdit;
+      commitEdit = props.commitEdit,
+      toggleGenreFilter = props.toggleGenreFilter,
+      filterGenreToggle = props.filterGenreToggle,
+      toggleAuthorFilter = props.toggleAuthorFilter,
+      filterAuthorToggle = props.filterAuthorToggle;
 
   var cardlist = [];
   for (var i = 0; i < cards.length; i++) {
@@ -267,8 +293,8 @@ var CardsContainer = function CardsContainer(props) {
     React.createElement(
       "div",
       { className: "buttons__container" },
-      React.createElement(FilterGenres, { filterGenre: filterGenre, genres: genres, showAll: showAll }),
-      React.createElement(FilterAuthors, { filterAuthor: filterAuthor, authors: authors, showAll: showAll })
+      React.createElement(FilterGenres, { filterGenre: filterGenre, genres: genres, showAll: showAll, toggleGenreFilter: toggleGenreFilter, filterGenreToggle: filterGenreToggle }),
+      React.createElement(FilterAuthors, { filterAuthor: filterAuthor, authors: authors, showAll: showAll, toggleAuthorFilter: toggleAuthorFilter, filterAuthorToggle: filterAuthorToggle })
     ),
     React.createElement(
       "div",
@@ -282,7 +308,9 @@ var CardsContainer = function CardsContainer(props) {
 var FilterGenres = function FilterGenres(props) {
   var genres = props.genres,
       filterGenre = props.filterGenre,
-      showAll = props.showAll;
+      showAll = props.showAll,
+      filterGenreToggle = props.filterGenreToggle,
+      toggleGenreFilter = props.toggleGenreFilter;
 
   var genreList = [];
   for (var i = 0; i < genres.length; i++) {
@@ -290,14 +318,22 @@ var FilterGenres = function FilterGenres(props) {
   }
   return React.createElement(
     "div",
-    { className: "filter__container" },
-    React.createElement(
-      "span",
-      { className: "filter__span" },
-      "Filter by genre:"
-    ),
-    genreList,
-    React.createElement(ShowAll, { showAll: showAll })
+    null,
+    filterGenreToggle ? React.createElement(
+      "div",
+      { className: "filter__container" },
+      React.createElement(
+        "button",
+        { className: "button white", onClick: toggleGenreFilter },
+        "Click to Collapse"
+      ),
+      genreList,
+      React.createElement(ShowAll, { showAll: showAll })
+    ) : React.createElement(
+      "button",
+      { className: "button genre large", onClick: toggleGenreFilter },
+      "Click to Show Genre Filters"
+    )
   );
 };
 
@@ -317,7 +353,9 @@ var FilterGenre = function FilterGenre(props) {
 var FilterAuthors = function FilterAuthors(props) {
   var authors = props.authors,
       filterAuthor = props.filterAuthor,
-      showAll = props.showAll;
+      showAll = props.showAll,
+      filterAuthorToggle = props.filterAuthorToggle,
+      toggleAuthorFilter = props.toggleAuthorFilter;
 
   var genreList = [];
   for (var i = 0; i < authors.length; i++) {
@@ -325,14 +363,22 @@ var FilterAuthors = function FilterAuthors(props) {
   }
   return React.createElement(
     "div",
-    { className: "filter__container" },
-    React.createElement(
-      "span",
-      { className: "filter__span" },
-      "Filter by author:"
-    ),
-    genreList,
-    React.createElement(ShowAll, { showAll: showAll })
+    null,
+    filterAuthorToggle ? React.createElement(
+      "div",
+      { className: "filter__container" },
+      React.createElement(
+        "button",
+        { className: "button white", onClick: toggleAuthorFilter },
+        "Click to Collapse"
+      ),
+      genreList,
+      React.createElement(ShowAll, { showAll: showAll })
+    ) : React.createElement(
+      "button",
+      { className: "button author large", onClick: toggleAuthorFilter },
+      "Click to Show Author Filters"
+    )
   );
 };
 
@@ -354,7 +400,7 @@ var ShowAll = function ShowAll(props) {
 
   return React.createElement(
     "button",
-    { onClick: showAll },
+    { className: "button white", onClick: showAll },
     "Reset Filter"
   );
 };

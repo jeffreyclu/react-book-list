@@ -28,7 +28,9 @@ class App extends React.Component {
       genres: [],
       authors: [], 
       newCard: {},
-      tempCard: {}
+      tempCard: {},
+      filterGenreToggle: false,
+      filterAuthorToggle: false,
     };
     this.filterGenre = this.filterGenre.bind(this);
     this.filterAuthor = this.filterAuthor.bind(this);
@@ -39,6 +41,8 @@ class App extends React.Component {
     this.markRead = this.markRead.bind(this);
     this.toggleEdit = this.toggleEdit.bind(this);
     this.commitEdit = this.commitEdit.bind(this);
+    this.toggleGenreFilter = this.toggleGenreFilter.bind(this);
+    this.toggleAuthorFilter = this.toggleAuthorFilter.bind(this);
   }
 
   componentDidMount() {
@@ -59,6 +63,19 @@ class App extends React.Component {
         const cardsList = JSON.parse(localStorage.getItem("storedState"));
         this.setState({ cards: cardsList, genres: genGenres(), authors: genAuthors() });
     }
+  }
+
+  toggleGenreFilter = () => {
+    this.setState((prevState) => {
+      const filterGenreToggle = !prevState.filterGenreToggle;
+      return ({ filterGenreToggle });
+    })
+  }
+  toggleAuthorFilter = () => {
+    this.setState((prevState) => {
+      const filterAuthorToggle = !prevState.filterAuthorToggle;
+      return ({ filterAuthorToggle });
+    })
   }
 
   filterGenre = (genre) => {
@@ -206,13 +223,17 @@ class App extends React.Component {
           toggleEdit={this.toggleEdit}
           editCard={this.editCard}
           commitEdit={this.commitEdit}
+          toggleGenreFilter={this.toggleGenreFilter}
+          filterGenreToggle={this.state.filterGenreToggle}
+          toggleAuthorFilter={this.toggleAuthorFilter}
+          filterAuthorToggle={this.state.filterAuthorToggle}
         />
     );
   }
 }
 
 const CardsContainer = props => {
-  const { cards, genres, authors, filterGenre, setNewCard, newCard, addNewCard, deleteCard, showAll, filterAuthor, markRead, tempCard, toggleEdit, editCard, commitEdit } = props;
+  const { cards, genres, authors, filterGenre, setNewCard, newCard, addNewCard, deleteCard, showAll, filterAuthor, markRead, tempCard, toggleEdit, editCard, commitEdit, toggleGenreFilter, filterGenreToggle, toggleAuthorFilter, filterAuthorToggle } = props;
   const cardlist = [];
   for (let i = 0; i < cards.length; i++) {
     cardlist.push(<Card key={i} hidden={cards[i].hidden} card={cards[i]} deleteCard={deleteCard} markRead={markRead} tempCard={tempCard} toggleEdit={toggleEdit} editCard={editCard} commitEdit={commitEdit} tempId={i} />);
@@ -220,8 +241,8 @@ const CardsContainer = props => {
   return(
     <div className="app__container">
       <div className="buttons__container">
-        <FilterGenres filterGenre={filterGenre} genres={genres} showAll={showAll} />
-        <FilterAuthors filterAuthor={filterAuthor} authors={authors} showAll={showAll} />
+        <FilterGenres filterGenre={filterGenre} genres={genres} showAll={showAll} toggleGenreFilter={toggleGenreFilter} filterGenreToggle={filterGenreToggle} />
+        <FilterAuthors filterAuthor={filterAuthor} authors={authors} showAll={showAll} toggleAuthorFilter={toggleAuthorFilter} filterAuthorToggle={filterAuthorToggle} />
       </div>
       <div className = "cards__container">
         {cardlist}
@@ -232,38 +253,52 @@ const CardsContainer = props => {
 }
 
 const FilterGenres = props => {
-  const { genres, filterGenre, showAll } = props;
+  const { genres, filterGenre, showAll, filterGenreToggle, toggleGenreFilter } = props;
   const genreList = [];
   for (let i = 0; i < genres.length; i++) {
     genreList.push(<FilterGenre key={i} genre={genres[i]} filterGenre={filterGenre} />);
   }
   return(
-    <div className="filter__container">
-        <span className="filter__span">Filter by genre:</span>
-        {genreList}
-        <ShowAll showAll={showAll}/>
+    <div>
+      {
+        filterGenreToggle 
+          ? 
+          <div className="filter__container">
+              <button className="button white" onClick={toggleGenreFilter}>Click to Collapse</button>
+              {genreList}
+              <ShowAll showAll={showAll}/>
+          </div>
+          : <button className="button genre large" onClick={toggleGenreFilter}>Click to Show Genre Filters</button>
+      }
     </div>
   )
 }
 
 const FilterGenre = props => {
-  const { genre, filterGenre} = props;
+  const { genre, filterGenre } = props;
   return (
     <button className="button genre" onClick={()=>filterGenre(genre)}>{genre}</button>
   )
 }
 
 const FilterAuthors = props => {
-  const { authors, filterAuthor, showAll } = props;
+  const { authors, filterAuthor, showAll, filterAuthorToggle, toggleAuthorFilter } = props;
   const genreList = [];
   for (let i = 0; i < authors.length; i++) {
     genreList.push(<FilterAuthor key={i} authors={authors[i]} filterAuthor={filterAuthor} />);
   }
   return(
-    <div className="filter__container">
-        <span className="filter__span">Filter by author:</span>
-        {genreList}
-        <ShowAll showAll={showAll}/>
+    <div>
+      {
+        filterAuthorToggle
+          ?
+          <div className="filter__container">
+              <button className="button white" onClick={toggleAuthorFilter}>Click to Collapse</button>
+              {genreList}
+              <ShowAll showAll={showAll}/>
+          </div>
+          : <button className="button author large" onClick={toggleAuthorFilter}>Click to Show Author Filters</button>
+      }
     </div>
   )
 }
@@ -278,7 +313,7 @@ const FilterAuthor = props => {
 const ShowAll = props => {
   const { showAll } = props;
   return (
-    <button onClick={showAll}>Reset Filter</button>
+    <button className="button white" onClick={showAll}>Reset Filter</button>
   )
 }
 
